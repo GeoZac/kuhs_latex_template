@@ -121,14 +121,6 @@
 %		
 
 \begin{document}
-\makeatletter
-% Page numbers shall not be shown on Chapter beginning pages.
-\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
-                    \thispagestyle{empty}%
-                    \global\@topnum\z@
-                    \@afterindentfalse
-                    \secdef\@chapter\@schapter}
-\makeatother
 %\renewcommand\@dotsep{500}
 %\renewcommand{\@dotsep}{10000}
 
